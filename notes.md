@@ -28,3 +28,19 @@
  client makes a request to the server
 
  server produces a response and sends it to the client
+
+ ## middlware 
+
+ -can see the request and do something with the request
+ -can stop the request and produce a response
+ -can do nothing
+ -can do the same wuth the response object
+ -**can midify the request or response objects**
+
+    three types.
+    - built-in: no need to install
+    - third party: need to install it using npm or yarn
+    - custom: we build it
+
+    can be use:
+    - globally with server.js
